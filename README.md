@@ -1,9 +1,18 @@
-# COOL-FLUTTER
+# COOL-FLUTTER(支持空安全)
 
 让你不用想太多就能开发完功能
 ## 更快
 
 -   开发快：`eps` 模式下，无须手动添加接口请求方法。
+
+## 依赖介绍
+
+| 依赖包名 | 包介绍 |                                         官网 |   版本 | 空安全 |
+| :------- | -----: | -------------------------------------------: | -----: | :----: |
+| Get      | 编辑中 | [Github](https://github.com/jonataslaw/getx) | ^4.6.5 |  支持  |
+
+
+
 
 ## 更强
 
@@ -11,15 +20,7 @@
 比UNI更强更流畅 适用于IOS,Android
 
 
-
-cool 包
-- [ ] config  
-- [ ] core 
-- [ ] ui
-- [ ] utils
-
-
-## 目录树 TODO cool-flutter
+## 目录树 TODO COOL-FLUTTER
 ```
 cool-flutter
  ├── README.md
