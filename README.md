@@ -4,7 +4,22 @@
 ## 更快
 
 -   开发快：`eps` 模式下，无须手动添加接口请求方法。
+## 环境要求 如flutter pub get 安装不了请检查环境
+``` shell
 
+# COOL-FLUTTER 开发环境
+➜ flutter --version
+Flutter 3.3.4 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision eb6d86ee27 (9 days ago) • 2022-10-04 22:31:45 -0700
+Engine • revision c08d7d5efc
+Tools • Dart 2.18.2 • DevTools 2.15.0
+
+# COOL-FLUTTER 要求环境
+
+sdk: '>=2.18.0 <3.0.0'
+flutter: '>=3.3.0'
+
+```
 ## 安装并使用
 
 ``` dart
@@ -15,9 +30,13 @@
 
 ## 依赖介绍
 
-| 依赖包名 | 包介绍 |                                         官网 |   版本 | 空安全 |
-| :------- | -----: | -------------------------------------------: | -----: | :----: |
-| Get      | 编辑中 | [Github](https://github.com/jonataslaw/getx) | ^4.6.5 |  支持  |
+| 依赖包名 | 包介绍 |                                           官网 |  版本 | 空安全 |
+| :------- | -----: | ---------------------------------------------: | ----: | :----: |
+| Get      | 编辑中 |   [Github](https://github.com/jonataslaw/getx) | 4.6.5 |  支持  |
+| uuid     | 编辑中 | [Pub](https://pub.flutter-io.cn/packages/uuid) | 3.0.6 |  支持  |
+| sqlite3  | 编辑中 |        [Pub](https://pub.dev/packages/sqlite3) | 1.9.0 |  支持  |
+
+
 
 
 
