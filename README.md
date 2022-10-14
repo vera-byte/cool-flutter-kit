@@ -11,24 +11,19 @@
 比UNI更强更流畅 适用于IOS,Android
 
 
-## TODO
 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
+cool 包
+- [ ] config  
+- [ ] core 
+- [ ] ui
+- [ ] utils
 
-## 目录树 cool-flutter
+
+## 目录树 TODO cool-flutter
 ```
 cool-flutter
- ├── README.html
  ├── README.md
+ ├── README.html
  ├── pubspec.lock
  ├── pubspec.yaml
  ├── cool_flutter.iml
@@ -38,6 +33,27 @@ cool-flutter
  ├── lib
  │   ├── src
  │   │   └── cool
+ │   │       ├── index.dart
+ │   │       ├── utils          - [ ❌ ] 开发中
+ │   │       │   └── index.dart - [ ❌ ] 开发中
+ │   │       ├── ui             - [ ❌ ] 开发中
+ │   │       │   ├── theme.dart - [ ❌ ] 开发中
+ │   │       │   ├── utils      - [ ❌ ] 开发中
+ │   │       │   ├── types      - [ ❌ ] 开发中
+ │   │       │   ├── hook       - [ ❌ ] 开发中
+ │   │       │   ├── style      - [ ❌ ] 开发中
+ │   │       │   └── components - [ ❌ ] 开发中
+ │   │       ├── core           - [ ❌ ] 开发中
+ │   │       │   ├── index.dart - [ ❌ ] 开发中
+ │   │       │   ├── upload     - [ ❌ ] 开发中
+ │   │       │   ├── store      - [ ❌ ] 开发中
+ │   │       │   ├── socket     - [ ❌ ] 开发中
+ │   │       │   ├── service    - [ ❌ ] 开发中
+ │   │       │   ├── router     - [ ❌ ] 开发中
+ │   │       │   ├── mitt       - [ ❌ ] 开发中
+ │   │       │   ├── hook       - [ ❌ ] 开发中
+ │   │       │   └── eps        - [ ❌ ] 开发中
+ │   │       └── config         - [ ❌ ] 开发中
  │   └── cool_flutter.dart
  ├── analysis_options.yaml
  └── CHANGELOG.md
