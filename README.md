@@ -1,12 +1,17 @@
 # COOL-FLUTTER(支持空安全)
 
 让你不用想太多就能开发完功能
-## 预览
 
-<img src="static/1.jpg" width="180">
-<img src="static/2.jpg" width="180">
-<img src="static/3.jpg" width="180">
-<img src="static/4.jpg" width="180">
+
+
+| <img src="static/1.jpg" width="180"> | <img src="static/2.jpg" width="180"> | <img src="static/3.jpg" width="180"> | <img src="static/4.jpg" width="180"> |
+| :----------------------------------- | -----------------------------------: | -----------------------------------: | -----------------------------------: |
+
+
+
+
+
+
 
 
 
