@@ -1,9 +1,19 @@
 # COOL-FLUTTER(支持空安全)
 
 让你不用想太多就能开发完功能
+## 预览
+![](static/1.jpg)
+![](static/2.jpg)
+![](static/3.jpg)
+![](static/4.jpg)
+
+
 ## 更快
 
 -   开发快：`eps` 模式下，无须手动添加接口请求方法。
+
+
+
 ## 环境要求 如flutter pub get 安装不了请检查环境
 ``` shell
 

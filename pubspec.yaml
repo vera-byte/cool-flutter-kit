@@ -1,4 +1,4 @@
-name: cool_flutter
+name: cool
 description: 很酷的Flutter
 version: 0.0.1
 homepage: https://github.com/metoyun/cool-flutter-widget
@@ -13,6 +13,8 @@ dependencies:
   get: 4.6.5
   uuid: 3.0.6
   sqlite3: 1.9.0
+
+
 
 dev_dependencies:
   flutter_test:

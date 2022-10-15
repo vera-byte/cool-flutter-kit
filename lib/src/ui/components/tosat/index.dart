@@ -2,8 +2,8 @@
  * @Author: Vera
  * @Date: 2022-10-15 14:04:36
  * @Filename: toast
- * @FilePath: /cool-flutter/lib/src/cool/ui/components/tosat/index.dart
- * @LastEditTime: 2022-10-15 14:14:52
+ * @FilePath: /cool-flutter/lib/src/ui/components/tosat/index.dart
+ * @LastEditTime: 2022-10-15 17:57:36
  * @Description: CoolToast
  * @Version: 1.0.0
  */

@@ -3,10 +3,11 @@
  * @Date: 2022-10-15 13:25:38
  * @Filename: {{put-file-name}}
  * @FilePath: /cool-flutter/example/lib/app/modules/home/views/home_view.dart
- * @LastEditTime: 2022-10-15 17:18:20
+ * @LastEditTime: 2022-10-15 18:09:38
  * @Description: 描述信息
  * @Version: 1.0.0
  */
+import 'package:cool/cool.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
@@ -64,7 +65,7 @@ class HomeView extends GetView<HomeController> {
                       ),
                       clipBehavior: Clip.antiAlias,
                       child: InkWell(
-                        onTap: () => print(c.path),
+                        onTap: () => CoolToast.show(c.name, context),
                         child: Container(
                           alignment: Alignment.center,
                           height: 35,
