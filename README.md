@@ -2,10 +2,13 @@
 
 让你不用想太多就能开发完功能
 ## 预览
-![](static/1.jpg)
-![](static/2.jpg)
-![](static/3.jpg)
-![](static/4.jpg)
+
+<img src="static/1.jpg" style="width: calc(100% / 4)">
+<img src="static/2.jpg" style="width: calc(100% / 4)">
+<img src="static/3.jpg" style="width: calc(100% / 4)">
+<img src="static/4.jpg" style="width: calc(100% / 4)">
+
+
 
 
 ## 更快
