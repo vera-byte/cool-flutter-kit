@@ -48,11 +48,15 @@ flutter: '>=3.3.0'
 
 ## 依赖介绍
 
-| 依赖包名 | 包介绍 |                                           官网 |  版本 | 空安全 |
-| :------- | -----: | ---------------------------------------------: | ----: | :----: |
-| Get      | 编辑中 |   [Github](https://github.com/jonataslaw/getx) | 4.6.5 |  支持  |
-| uuid     | 编辑中 | [Pub](https://pub.flutter-io.cn/packages/uuid) | 3.0.6 |  支持  |
-| sqlite3  | 编辑中 |        [Pub](https://pub.dev/packages/sqlite3) | 1.9.0 |  支持  |
+| 依赖包名          |                                包介绍 |                                              官网 |  版本 | 空安全 |
+| :---------------- | ------------------------------------: | ------------------------------------------------: | ----: | :----: |
+| Get               |                              状态管理 |         [Pub](https://github.com/jonataslaw/getx) | 4.6.5 |  支持  |
+| uuid              |                            UUID生成器 |    [Pub](https://pub.flutter-io.cn/packages/uuid) | 3.0.6 |  支持  |
+| sqlite3           |                         本地SQL数据库 |           [Pub](https://pub.dev/packages/sqlite3) | 1.9.0 |  支持  |
+| chopper           |                            依赖Http库 |           [Pub](https://pub.dev/packages/chopper) | 5.1.0 |  支持  |
+| chopper_generator |                     chopper代码生成器 | [Pub](https://pub.dev/packages/chopper_generator) | 5.1.0 |  支持  |
+| build_runner      | Dart 的独立生成器和观察器(dart官网库) |      [Pub](https://pub.dev/packages/build_runner) | 2.3.0 |  支持  |
+| logging           |                                  日志 | [Pub](https://pub.flutter-io.cn/packages/logging) | 1.1.0 |  支持  |
 
 
 
@@ -185,3 +189,9 @@ COOL-FLUTTER
          └── eps
 
  ```
+
+
+> 注意:使用--delete-conflicting-outputs会在生成新文件之前删除所有已生成的文件。
+> [build_runner 内置命令](https://pub.flutter-io.cn/packages/build_runner)
+
+ flutter pub run build_runner build --delete-conflicting-outputs

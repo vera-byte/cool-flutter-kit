@@ -3,7 +3,7 @@
  * @Date: 2022-10-15 13:25:38
  * @Filename: {{put-file-name}}
  * @FilePath: /cool-flutter/example/lib/app/modules/home/views/home_view.dart
- * @LastEditTime: 2022-10-15 18:09:38
+ * @LastEditTime: 2022-10-15 21:17:43
  * @Description: 描述信息
  * @Version: 1.0.0
  */
@@ -11,6 +11,7 @@ import 'package:cool/cool.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
+import 'package:persistent_bottom_nav_bar_v2/persistent-tab-view.dart';
 
 import '../controllers/home_controller.dart';
 
@@ -27,10 +28,10 @@ class HomeView extends GetView<HomeController> {
           Container(
             padding:
                 EdgeInsets.only(top: Get.mediaQuery.padding.top, bottom: 20),
-            child: const Center(
+            child: Center(
               child: Text(
-                "COOL-FLUTTER",
-                style: TextStyle(
+                AppCommonConfig.app['name'],
+                style: const TextStyle(
                   color: Color.fromRGBO(0, 0, 0, 1),
                   fontSize: 24,
                   fontWeight: FontWeight.w800,
@@ -65,7 +66,10 @@ class HomeView extends GetView<HomeController> {
                       ),
                       clipBehavior: Clip.antiAlias,
                       child: InkWell(
-                        onTap: () => CoolToast.show(c.name, context),
+                        onTap: () => {
+                          CoolToast.show(c.name, context),
+                          Get.toNamed(c.path)
+                        },
                         child: Container(
                           alignment: Alignment.center,
                           height: 35,
