@@ -26,7 +26,10 @@ class CoolUtils {
     return s.join("");
   }
 
-  /// 身份证号合法性验证,支持15位和18位身份证号,支持地址编码、出生日期、校验位验证
+  /// @desc 中国身份证因子验证 身份证号合法性验证,支持15位和18位身份证号,支持地址编码、出生日期、校验位验证
+  /// @param {String} code 身份证号
+  /// @return {Boolean} 是否通过验证
+  /// @example isIdCard('11010119900307766X')
   static bool idCard(String code) {
     if (code.length != 18) {
       return false;
@@ -91,9 +94,7 @@ class CoolUtils {
           wi = factor[i];
           sum += ai * wi;
         }
-        var last = parity[sum % 11];
         if (parity[sum % 11] != code[17]) {
-          // uni.showToast({ title: "身份证校验位错误", icon: "none" });
           return false;
         }
       } else {
@@ -102,4 +103,10 @@ class CoolUtils {
     }
     return true;
   }
+}
+
+/// 验证手机号
+bool isPhone(String phone) {
+  RegExp reg = RegExp(r'/^1[3456789]\d{9}$/');
+  return reg.hasMatch(phone);
 }
