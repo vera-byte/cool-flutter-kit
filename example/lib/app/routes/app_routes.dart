@@ -65,6 +65,7 @@ abstract class Routes {
   static const MAIN = _Paths.MAIN;
   static const GIT = _Paths.GIT;
   static const POSTERS = _Paths.POSTERS;
+  static const ALEX_GRID = _Paths.ALEX_GRID;
 }
 
 abstract class _Paths {
@@ -122,4 +123,5 @@ abstract class _Paths {
   static const MAIN = '/main';
   static const GIT = '/git';
   static const POSTERS = '/posters';
+  static const ALEX_GRID = '/alex-grid';
 }

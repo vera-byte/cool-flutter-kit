@@ -64,13 +64,17 @@ class CoolToast {
     BuildContext context, {
     Duration? duration,
     Color? background,
-    TextStyle textStyle = const TextStyle(fontSize: 16, color: Colors.white),
+    TextStyle textStyle = const TextStyle(
+        fontSize: 12, fontWeight: FontWeight.w500, color: Colors.white),
     double? radius,
     Image? preIcon,
     double? verticalOffset,
     VoidCallback? onDismiss,
     CoolToastGravity? gravity,
   }) {
+    // 如果背景是白色则把字体颜色改为黑色
+    if (background == Colors.white)
+      textStyle = textStyle.copyWith(color: Colors.black);
     final OverlayState? overlayState = Overlay.of(context);
     if (overlayState == null) return;
 
@@ -228,8 +232,17 @@ class ToastChild extends StatelessWidget {
         width: MediaQuery.of(context).size.width,
         child: Container(
           decoration: BoxDecoration(
-            color: background ?? const Color(0xFF222222),
-            borderRadius: BorderRadius.circular(radius ?? 8),
+            color: background ?? const Color(0xFF222222).withOpacity(0.3),
+            borderRadius: BorderRadius.circular(radius ?? 150),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black.withOpacity(0.1),
+                offset: Offset(0, 2), //阴影y轴偏移量
+                blurRadius: 10, //阴影模糊程度
+                spreadRadius: 5, //阴影扩散程度
+              )
+            ],
+            border: Border.all(color: Colors.black, width: 0.1),
           ),
           margin: const EdgeInsets.symmetric(horizontal: 20),
           padding: const EdgeInsets.fromLTRB(18, 10, 18, 10),

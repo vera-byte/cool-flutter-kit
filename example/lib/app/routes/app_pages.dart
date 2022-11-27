@@ -2,6 +2,8 @@ import 'package:get/get.dart';
 
 import '../modules/action-sheet/bindings/action_sheet_binding.dart';
 import '../modules/action-sheet/views/action_sheet_view.dart';
+import '../modules/alex_grid/bindings/alex_grid_binding.dart';
+import '../modules/alex_grid/views/alex_grid_view.dart';
 import '../modules/ali-pay/bindings/ali_pay_binding.dart';
 import '../modules/ali-pay/views/ali_pay_view.dart';
 import '../modules/avatar/bindings/avatar_binding.dart';
@@ -389,6 +391,11 @@ class AppPages {
       name: _Paths.POSTERS,
       page: () => const PostersView(),
       binding: PostersBinding(),
+    ),
+    GetPage(
+      name: _Paths.ALEX_GRID,
+      page: () => const AlexGridView(),
+      binding: AlexGridBinding(),
     ),
   ];
 }

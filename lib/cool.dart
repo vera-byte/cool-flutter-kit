@@ -15,7 +15,7 @@ export "src/theme/index.dart";
 /// Cool 配置
 export "src/config/index.dart";
 
-/// CoolWidget
+/// CoolUIWidget
 export "src/ui/index.dart";
 
 /// CoolUtils
