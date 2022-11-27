@@ -1,9 +1,9 @@
-name: CI
+name: COOL-FLUTTER-KIT-CI
 
 on:
   push:
     branches:
-      - master
+      - main
     tags:
       - '*'
   pull_request:
