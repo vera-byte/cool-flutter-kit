@@ -1,3 +1,4 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/vera-byte/cool-flutter-kit/badge)](https://www.codefactor.io/repository/github/vera-byte/cool-flutter-kit)
 # [Flutter开发规范](./Flutter开发规范.md) [借鉴flutter-go](https://github.com/alibaba/flutter-go/blob/master/Flutter_Go%20%E4%BB%A3%E7%A0%81%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83.md) 
 
 # COOL-FLUTTER(支持空安全)
