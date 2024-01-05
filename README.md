@@ -1,4 +1,4 @@
-# 迈了 App 公共模块
+# [**cool-flutter-kit**](https://github.com/vera-byte/cool-flutter-kit)
 
 1. 网络请求
 2. 本地缓存
